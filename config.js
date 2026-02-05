@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: " Es-ce que tu m'aimes ?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "oui",                                             // Text for "Yes" button
+            noBtn: "Non",                                               // Text for "No" button
             secretAnswer: "Y'a intérêt que ce sois oui ! ❤️"           // Secret hover message
         },
         second: {
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Veux-tu être ma Valentine ? 🌹", // The big question!
+            text: "VEUX-TU ÊTRE MA VALENTINE ? 🌹", // The big question!
             yesBtn: "Oui!",                                             // Text for "Yes" button
             noBtn: "Non"                                                 // Text for "No" button
         }
