@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: " Es-ce que tu m'aimes ?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "Y'a intérêt que ce sois oui ! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "A quelle point je te manque ?",                          // For the love meter
+            startText: "Je sais c'est pas le même manques",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Veux-tu être ma Valentine ? 🌹", // The big question!
+            yesBtn: "Oui!",                                             // Text for "Yes" button
+            noBtn: "Non"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW AH LA JE RESSENS TON AMOUR ❤️❤️🥰🚀💝",  // Shows when they go past 5000%
+        high: "Je ressens pas l'amour 🚀💝",              // Shows when they go past 1000%
+        normal: "Je sais que tu peux faire mieux 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "Je suis tellemnt chanceux de t'avoir je te remercie pas assez ! 🎉💝💖💝💓",
+        message: "HÂTE QUE TU RENTRE POUR TE FAITRE TOUT PLEIN DE CADEAU 😏💕❤️😘😍😋",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dtjix0zxl/raw/upload/v1770143215/watch_jy3sxc", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dtjix0zxl/video/upload/v1770305404/Dave_ft._Tems_Raindance_yflkw8.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
